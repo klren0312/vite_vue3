@@ -10,6 +10,7 @@
     "lint": "eslint --fix"
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
     "axios": "^1.3.5",
     "element-plus": "^2.3.2",
     "pinia": "^2.0.33",
@@ -19,6 +20,7 @@
     "zmethods": "^1.2.3"
   },
   "devDependencies": {
+    "@types/node": "^18.15.11",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
     "@vitejs/plugin-vue": "^4.1.0",
