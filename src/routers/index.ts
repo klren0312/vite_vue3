@@ -67,6 +67,17 @@ const router = createRouter({
   ]
 })
 
+// reset router
+export function resetRouter() {
+  router.getRoutes().forEach((route) => {
+    const { name } = route
+    if (name) {
+      router.hasRoute(name) && router.removeRoute(name)
+    }
+  })
+}
+
+
 export function setupRouter(app: App<Element>) {
   app.use(router)
 }
