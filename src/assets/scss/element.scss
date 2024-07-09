@@ -1,0 +1,119 @@
+:root {
+  --el-color-primary: #0052d9;
+}
+
+.el-message {
+  min-width: 60px;
+  pointer-events: all;
+  padding: 8px 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.2);
+  background: #fff;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #EBEEF5;
+}
+
+.el-menu-item.is-active {
+  border-right: 3px solid var(--el-color-primary);
+  background-color: var(--el-menu-hover-bg-color);
+}
+
+.filter-form .el-form-item {
+  margin-bottom: 0;
+}
+
+.el-form-item--small .el-form-item__label {
+  font-size: 12px;
+  color: #000;
+}
+
+.el-form--label-left .el-form-item__label {
+  position: relative;
+}
+
+
+.el-input-number .el-input__inner {
+  text-align: left !important;
+}
+
+.el-input-number.is-without-controls .el-input__wrapper {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+}
+
+.el-table th.el-table__cell {
+  color: #303133;
+  font-weight: bold;
+  background: #fafafa !important;
+}
+
+.el-drawer__header {
+  margin-bottom: 0 !important;
+  padding-bottom: 20px !important;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.el-drawer__title {
+  font-size: 24px;
+  color: #303133;
+  font-weight: bold;
+}
+
+.el-popper {
+  max-width: 60% !important;
+}
+
+.el-button.el-button--primary:not(.is-disabled):focus,
+.el-button.el-button--primary:not(.is-disabled):hover {
+  background: var(--el-color-primary)!important;
+}
+.el-button.el-button--primary.is-link:not(.is-disabled):focus,
+.el-button.el-button--primary.is-link:not(.is-disabled):hover {
+  color:var(--el-color-primary)!important;
+  background: transparent!important;
+}
+
+.el-button.el-button--warning:not(.is-disabled):focus,
+.el-button.el-button--warning:not(.is-disabled):hover {
+  background: var(--el-color-warning)!important;
+}
+.el-button.el-button--warning.is-link:not(.is-disabled):focus,
+.el-button.el-button--warning.is-link:not(.is-disabled):hover {
+  color:var(--el-color-warning)!important;
+  background: transparent!important;
+}
+
+.el-button.el-button--success:not(.is-disabled):focus,
+.el-button.el-button--success:not(.is-disabled):hover {
+  background: var(--el-color-success)!important;
+}
+.el-button.el-button--success.is-link:not(.is-disabled):focus,
+.el-button.el-button--success.is-link:not(.is-disabled):hover{
+  color:var(--el-color-success)!important;
+  background: transparent!important;
+}
+
+.el-button.el-button--info:not(.is-disabled):focus,
+.el-button.el-button--info:not(.is-disabled):hover {
+  background: var(--el-color-info)!important;
+}
+.el-button.el-button--info.is-link:not(.is-disabled):focus,
+.el-button.el-button--info.is-link:not(.is-disabled):hover {
+  color:var(--el-color-info)!important;
+  background: transparent!important;
+}
+
+.el-button.el-button--danger:not(.is-disabled):focus,
+.el-button.el-button--danger:not(.is-disabled):hover {
+  background: var(--el-color-danger)!important;
+}
+.el-button.el-button--danger.is-link:not(.is-disabled):focus,
+.el-button.el-button--danger.is-link:not(.is-disabled):hover{
+  color:var(--el-color-danger)!important;
+  background: transparent!important;
+}
+
+.el-descriptions--small .el-descriptions__body .el-descriptions__table.is-bordered .el-descriptions__cell {
+  min-width: 100px;
+}
