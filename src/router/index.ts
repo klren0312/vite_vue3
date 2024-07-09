@@ -1,8 +1,8 @@
-import type { App } from 'vue'
 import * as NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
 import { createRouter, createWebHashHistory } from 'vue-router'
 import BasicRoute, { rootRoute } from './routes/basic'
+import { type App } from 'vue'
 
 NProgress.configure({ showSpinner: false })
 const WHITE_NAME_LIST: string[] = []

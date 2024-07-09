@@ -5,7 +5,9 @@
   </el-link>
 </template>
 <script setup lang="ts">
+import { useRouter } from 'vue-router'
 defineOptions({
   name: 'HomePage',
 })
+const $router = useRouter()
 </script>
